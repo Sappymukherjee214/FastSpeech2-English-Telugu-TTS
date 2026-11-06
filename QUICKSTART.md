@@ -177,13 +177,13 @@ python -m pytest -s
 - [x] `Telugu/checkpoints/best.pt` trained model
 - [x] `README.md` with implementation details
 - [x] `requirements.txt` with dependencies
-- [x] Technical report (PDF) in `Report/Technical_Report.pdf`
+- [x] Technical report (PDF) in `Report/Saptarshi_Mukherjee_FastSpeech2_Technical_Report.pdf`
 
 ## Next Steps
 
 1. Re-run either language pipeline when new data or training settings are needed.
 2. Listen to the generated audio and inspect the plots in `Results/`.
-3. Read `Report/Technical_Report.pdf` for the implementation, experiment, and analysis details.
+3. Read `Report/Saptarshi_Mukherjee_FastSpeech2_Technical_Report.pdf` for the implementation, experiment, and analysis details.
 
 ## Report Structure (Template)
 

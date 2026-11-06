@@ -7,7 +7,7 @@ This repository contains two independent FastSpeech 2 text-to-speech pipelines:
 - **English**, trained with the [Svarah](https://huggingface.co/datasets/ai4bharat/Svarah) dataset.
 - **Telugu**, trained with the [IndicTTS Telugu](https://huggingface.co/datasets/SPRINGLab/IndicTTS_Telugu) dataset.
 
-The project is organized as a complete assignment submission: preprocessing, training, inference, trained checkpoints, generated audio, loss curves, variance-adaptor visualizations, automated tests, and the [technical report](Report/Technical_Report.pdf) are all included.
+The project is organized as a complete assignment submission: preprocessing, training, inference, trained checkpoints, generated audio, loss curves, variance-adaptor visualizations, automated tests, and the [technical report](Report/Saptarshi_Mukherjee_FastSpeech2_Technical_Report.pdf) are all included.
 
 ## What This Project Demonstrates
 
@@ -28,7 +28,7 @@ The project is organized as a complete assignment submission: preprocessing, tra
 | Shared model and pipeline implementation | `common/` |
 | English and Telugu trained checkpoints | `English/checkpoints/`, `Telugu/checkpoints/` |
 | Generated audio and analysis artifacts | `Results/English/`, `Results/Telugu/` |
-| Technical report | `Report/Technical_Report.pdf` |
+| Technical report | `Report/Saptarshi_Mukherjee_FastSpeech2_Technical_Report.pdf` |
 | Automated tests | `tests/` |
 | Installation and runtime dependencies | `requirements.txt` |
 
@@ -73,7 +73,7 @@ The project is organized as a complete assignment submission: preprocessing, tra
 │   ├── English/
 │   └── Telugu/
 ├── Report/
-│   └── Technical_Report.pdf
+│   └── Saptarshi_Mukherjee_FastSpeech2_Technical_Report.pdf
 ├── tests/
 ├── README.md
 ├── QUICKSTART.md
@@ -236,7 +236,7 @@ Results/{English,Telugu}/variance_adaptor_plots/
 └── energy/
 ```
 
-The complete interpretation of the loss curves, generated samples, variance-adaptor behavior, language comparison, limitations, and reproducibility is provided in [Report/Technical_Report.pdf](Report/Technical_Report.pdf).
+The complete interpretation of the loss curves, generated samples, variance-adaptor behavior, language comparison, limitations, and reproducibility is provided in [Saptarshi_Mukherjee_FastSpeech2_Technical_Report.pdf](Report/Saptarshi_Mukherjee_FastSpeech2_Technical_Report.pdf).
 
 ## Test Sentences
 
