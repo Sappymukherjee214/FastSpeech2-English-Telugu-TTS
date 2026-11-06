@@ -1,0 +1,10 @@
+numpy>=1.26
+PyYAML>=6.0
+torch>=2.2
+librosa>=0.10
+soundfile>=0.12
+matplotlib>=3.8
+tqdm>=4.66
+datasets>=3.0
+pytest>=8.0
+reportlab>=4.0

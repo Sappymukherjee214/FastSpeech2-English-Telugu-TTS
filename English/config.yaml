@@ -1,0 +1,36 @@
+language: English
+seed: 1234
+dataset: ai4bharat/Svarah
+dataset_policy:
+  source_split: auto
+  selection: deterministic_seeded_duration_accumulation
+  seed: 1234
+  train_seconds_target: 18000
+  validation_seconds_target: 3600
+  validation_from: remaining_records_only
+  overlap_key_priority: [id, audio_path, path]
+  require_measured_audio_duration: true
+  require_duration_alignment: true
+paths:
+  output: English
+  results: Results/English
+  manifest: English/data
+audio:
+  sample_rate: 22050
+  n_fft: 1024
+  hop_length: 256
+  n_mels: 80
+  f_min: 0
+  f_max: 8000
+targets:
+  train_seconds: 18000
+  validation_seconds: 3600
+model:
+  hidden: 192
+  layers: 4
+  heads: 2
+train:
+  batch_size: 4
+  epochs: 10
+  learning_rate: 0.0001
+  num_workers: 0
