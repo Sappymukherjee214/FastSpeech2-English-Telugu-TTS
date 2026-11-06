@@ -308,11 +308,3 @@ Install a Telugu-capable font on the host operating system and rerun inference/p
   year={2021}
 }
 ```
-
-## License and Author
-
-This implementation is provided for educational use as part of the assignment.
-
-Implemented by **Sappymukherjee214** for the *FastSpeech 2-Based English and Telugu Text-to-Speech Synthesis* assignment, with a stated deadline of **07-11-2026**.
-
-For questions or issues, refer to the assignment guidelines or contact the course instructor.
