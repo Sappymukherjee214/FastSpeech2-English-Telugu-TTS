@@ -35,48 +35,39 @@ The project is organized as a complete assignment submission: preprocessing, tra
 ## Repository Layout
 
 ```text
-.
+project/
 ├── English/
-│   ├── config.yaml
-│   ├── preprocess.py
 │   ├── train.py
+│   ├── preprocess.py
 │   ├── inference.py
-│   ├── data/
-│   │   ├── train.jsonl
-│   │   ├── validation.jsonl
-│   │   └── vocab.json
+│   ├── config.yaml
 │   └── checkpoints/
-│       ├── best.pt
-│       └── last.pt
 ├── Telugu/
+│   ├── train.py
+│   ├── preprocess.py
+│   ├── inference.py
 │   ├── config.yaml
-│   ├── preprocess.py
-│   ├── train.py
-│   ├── inference.py
-│   ├── data/
-│   │   ├── train.jsonl
-│   │   ├── validation.jsonl
-│   │   └── vocab.json
 │   └── checkpoints/
-│       ├── best.pt
-│       └── last.pt
-├── common/
-│   ├── model.py
-│   ├── preprocess.py
-│   ├── train.py
-│   ├── inference.py
-│   ├── features.py
-│   ├── text.py
-│   ├── plots.py
-│   └── vocoder.py
 ├── Results/
 │   ├── English/
+│   │   ├── training_loss.png
+│   │   ├── validation_loss.png
+│   │   ├── test_generated_audios/
+│   │   └── variance_adaptor_plots/
+│   │       ├── duration/
+│   │       ├── pitch/
+│   │       └── energy/
 │   └── Telugu/
+│       ├── training_loss.png
+│       ├── validation_loss.png
+│       ├── test_generated_audios/
+│       └── variance_adaptor_plots/
+│           ├── duration/
+│           ├── pitch/
+│           └── energy/
 ├── Report/
 │   └── Saptarshi_Mukherjee_FastSpeech2_Technical_Report.pdf
-├── tests/
 ├── README.md
-├── QUICKSTART.md
 └── requirements.txt
 ```
 
